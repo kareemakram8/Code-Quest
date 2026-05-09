@@ -1,4 +1,3 @@
-<img width="143" height="668" alt="Screenshot 2026-05-09 181814" src="https://github.com/user-attachments/assets/435412ef-5ba5-44be-918e-77addfaaf613" />
 # Medicena · Patient Flow Coordination
 
 > **Product Owner Take-Home · Tactful AI**
@@ -67,11 +66,31 @@ The first product is a **mobile-first patient flow coordination layer** that rep
 
 ### Minimum Lovable Product
 
-The MLP gives hospital staff exactly what they need to coordinate patient flow — nothing more.
+2. Solution Outline
+Minimum Lovable Product (MLP)
 
-```
-<img width="143" height="668" alt="Screenshot 2026-05-09 181814" src="https://github.com/user-attachments/assets/cad41c9e-0689-4ee1-940e-365d06976e01" />
-```
+The first version of Medicena is a mobile-first operational coordination tool for hospital floor staff.
+
+The product enables staff to:
+
+View live patient queues per department
+Update patient status in real time
+Identify bottlenecks and delays
+Send operational updates to staff
+
+The goal is not to replace hospital systems, but to create a lightweight coordination layer that replaces fragmented WhatsApp communication and manual tracking.
+
+High-Level User Flow
+
+Login
+→ Select Department
+→ View Live Queue Dashboard
+→ Update Patient Status
+→ Send Operational Updates
+
+WorkFlow Diagrams link
+https://miro.com/welcomeonboard/M212bHRnTzdHZ3dEZnNjUEVrSmlYWGRqK243R3FwRFZrMWIvc0o5Ri96S0ltdmNZcFF6UjJ5SFhzZGsyRTdGcWQ2WTRIcExKZGVtNVM5TlZSTkhkK3hIZmRYK1NtZXVZYWJ0OWRlTUVpSXZlOUtEY2h5QnQxRDI1R3NyRG1RU3ByVmtkMG5hNDA3dVlncnBvRVB2ZXBnPT0hdjE=?share_link_id=481828083116
+
 Key Screens
 Login Screen
 Simple phone number login
@@ -92,8 +111,11 @@ Add notes
 View queue progress
 Broadcast Updates
 Notify staff about delays or operational changes
+
 **Commercial Reality**
+
 The primary buyers are hospital directors and operations managers.
+
 They would evaluate the product based on:
 
 Reduced patient waiting times
