@@ -1,3 +1,4 @@
+<img width="143" height="668" alt="Screenshot 2026-05-09 181814" src="https://github.com/user-attachments/assets/435412ef-5ba5-44be-918e-77addfaaf613" />
 # Medicena · Patient Flow Coordination
 
 > **Product Owner Take-Home · Tactful AI**
@@ -69,10 +70,38 @@ The first product is a **mobile-first patient flow coordination layer** that rep
 The MLP gives hospital staff exactly what they need to coordinate patient flow — nothing more.
 
 ```
-Login → Select Department → Live Queue Dashboard → Update Status → Broadcast Update
-<img width="143" height="668" alt="image" src="https://github.com/user-attachments/assets/baa50fab-200f-4a98-8da4-c27823e34582" />
-
+<img width="143" height="668" alt="Screenshot 2026-05-09 181814" src="https://github.com/user-attachments/assets/cad41c9e-0689-4ee1-940e-365d06976e01" />
 ```
+Key Screens
+Login Screen
+Simple phone number login
+No complex onboarding
+Department Selection
+Cardiology
+Orthopedics
+ER
+General Clinic
+Live Queue Dashboard
+Patient list
+Waiting times
+Status indicators
+Bottleneck alerts
+Patient Detail View
+Update patient status
+Add notes
+View queue progress
+Broadcast Updates
+Notify staff about delays or operational changes
+**Commercial Reality**
+The primary buyers are hospital directors and operations managers.
+They would evaluate the product based on:
+
+Reduced patient waiting times
+Reduced admin coordination overhead
+Better operational visibility
+Improved patient experience
+
+The product is designed as a lightweight SaaS subscription that can be deployed quickly without deep integrations into hospital infrastructure.
 
 ### Key Screens
 
