@@ -1,0 +1,122 @@
+You are an expert product engineer and UX builder.
+
+I am building a clickable prototype (no backend required) for a Product Owner take-home exercise for a B2B healthcare SaaS startup called Medicena.
+
+Context:
+Medicena is building a mobile-first hospital operational coordination tool for private hospitals in Egypt.
+
+The core problem:
+
+Hospitals currently coordinate patient flow using WhatsApp, verbal communication, and paper notes
+This creates chaos, unclear queues, delays, and overwhelmed admin staff
+
+Goal of prototype:
+Build a fully clickable frontend prototype only that demonstrates the most important workflow:
+
+Real-time patient flow coordination inside a hospital department
+
+This prototype must feel realistic enough that:
+
+A hospital director can understand it in 2 minutes
+Engineers can immediately understand the product structure
+It clearly demonstrates value without backend logic
+
+Tech Stack:
+Choose ONE:
+
+Next.js (preferred)
+React + Vite
+Any lightweight frontend framework you are fastest with
+
+Use:
+
+Mock data only
+No backend
+No authentication logic required (UI only is fine)
+
+Core User Flow:
+
+Login Screen (mock)
+Phone number input
+Login button (no real auth)
+Department Selection Screen
+Cardiology
+Orthopedics
+ER
+General Clinic
+Live Queue Dashboard (main screen)
+List of patients
+Status tags:
+Waiting
+With Doctor
+In Progress
+Done
+Waiting time shown
+Simple bottleneck warning (example: ER is delayed)
+Patient Detail Modal / Page
+Patient name
+Current status
+Buttons to update status
+Optional notes field
+Broadcast Update UI
+Send update to staff
+Example: Doctor delayed 20 minutes
+
+UI Requirements:
+
+Mobile-first design
+Clean hospital-style UI
+Large touch targets for floor staff
+Minimal clicks to update patient status
+Fast scanning dashboard
+Arabic-ready layout (RTL awareness, but no need to translate text)
+
+Mock Data Requirements:
+Include realistic data:
+
+Mixed Arabic and English patient names
+Departments
+Random wait times
+Different patient statuses
+
+Example:
+Ahmed Ali — Waiting — 45 min
+Sara Mohamed — With Doctor — 10 min
+
+Key Product Intent:
+This is NOT a hospital management system.
+
+It is ONLY a real-time coordination layer for patient flow.
+
+It replaces:
+
+WhatsApp coordination
+verbal updates
+manual queue tracking
+
+Prioritize:
+
+Clarity of flow over design perfection
+Clickable navigation between screens
+Realistic operational feel
+Fast usability on mobile
+
+Do NOT build:
+
+No backend
+No database
+No authentication system
+No AI features
+No integrations (insurance, EMR, etc.)
+
+Output requirement:
+
+Running app code
+Instructions to run locally
+Optional deployment suggestion (Vercel or similar)
+
+Success criteria:
+
+A hospital admin understands it in under 60 seconds
+The patient flow concept is visually obvious
+Core value (queue visibility + coordination) is immediately clear

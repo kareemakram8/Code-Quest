@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Medicena – Hospital Queue Coordinator"
+version = "1.0.0"
+id = "artifacts/medicena"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18175
+
+[services.development]
+run = "pnpm --filter @workspace/medicena run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/medicena", "run", "build" ]
+publicDir = "artifacts/medicena/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18175"
+BASE_PATH = "/"
